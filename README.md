@@ -6,7 +6,7 @@
 This project benchmarks **in-storage file format conversion** to reduce I/O bottlenecks in genome analysis. By converting FastQ files to 2-bit binary encoding inside the SSD, we significantly reduce data movement and improve pipeline throughput.
 
 ## Structure
-* `benchmarks/` – Shell scripts for reproducing I/O overhead tests.
+* `benchmarks/` – Shell scripts for the I/O overhead tests.
 * `docs/` – Methodology slides and PDF report.
 * `results/` – Raw timing data.
 
