@@ -1,9 +1,9 @@
 # Accelerating Genome Analysis
 
-**Author:** Matteo Dietz (SAFARI Research Group, ETH Zürich)
+**Author:** Matteo Dietz (as part of the SAFARI Research Group, ETH Zürich)
 
 ## Overview
-[cite_start]This project benchmarks **in-storage file format conversion** to reduce I/O bottlenecks in genome analysis[cite: 14, 16]. [cite_start]By converting FastQ files to 2-bit binary encoding inside the SSD, we significantly reduce data movement and improve pipeline throughput[cite: 17, 108].
+This project benchmarks **in-storage file format conversion** to reduce I/O bottlenecks in genome analysis. By converting FastQ files to 2-bit binary encoding inside the SSD, we significantly reduce data movement and improve pipeline throughput.
 
 ## Structure
 * `benchmarks/` – Shell scripts for reproducing I/O overhead tests.
@@ -11,7 +11,7 @@
 * `results/` – Raw timing data.
 
 ## Key Results
-[cite_start]Eliminating I/O overheads yielded the following speedups compared to standard FastQ processing[cite: 18, 19, 211]:
+Eliminating I/O overheads yielded the following speedups compared to standard FastQ processing:
 
 | Mapper | SSD Type | Speedup |
 | :--- | :--- | :--- |
